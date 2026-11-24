@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eaf3ff">
+  <title>A Little Day for You ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">✿</span> a gift <span>for you Kakak</span></a>
+    <nav aria-label="Navigasi utama">
+      
+    </nav>
+    <div class="music-box">
+      <span class="now-playing">Pamungkas - Happy Birthday To You</span>
+      <button type="button" class="music-toggle" id="musicToggle" aria-label="Putar musik">
+        <span class="music-icon" aria-hidden="true">♫</span>
+        <span id="musicLabel">Play music</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A DAY MADE JUST FOR YOU <span></span></p>
+        <h1>Happiest<br><em>birthday,</em><br><span>Erika.</span></h1>
+        <p class="hero-note">aing buat ini khusus jang maneh ka</p>
+        <a class="round-link" href="#wish">LET'S CELEBRATE <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi bunga daisy dan tulip">
+        <div class="sun-disc"></div>
+        <div class="flower flower-daisy daisy-one"><i></i></div>
+        <div class="flower flower-daisy daisy-two"><i></i></div>
+        <div class="flower flower-tulip tulip-one"><i></i></div>
+        <div class="flower flower-tulip tulip-two"><i></i></div>
+        <div class="hero-sticker sticker-top">kakak<br>ceo ✳</div>
+        <div class="hero-sticker sticker-bottom">my<br>♡ dorothea</div>
+        <div class="tiny-star star-a" aria-hidden="true">✦</div>
+        <div class="tiny-star star-b" aria-hidden="true">✧</div>
+        <div class="tiny-star star-c" aria-hidden="true">✳</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL A LITTLE</span><span class="scroll-line"></span><span>01 / 04</span></div>
+    </section>
+
+    <section class="wish-section section-pad" id="wish">
+      <div class="section-heading">
+        <p class="eyebrow blue">MAKE A WISH</p>
+        <h2>kue nya online aja<br>teriak <em>"HAPPY"</em></h2>
+        <p class="section-intro">Hari ini tentang kamu. Tentang semua hal baik yang sudah kamu lewati, dan semua hal indah yang sedang menunggumu di depan.</p>
+      </div>
+      <div class="cake-wrap">
+        <div class="cake-note"><span class="note-star" aria-hidden="true">✳</span><p>happy,<br>meeee</p></div>
+        <div class="cake" id="cake" aria-label="Kue ulang tahun biru bertingkat dengan lima lilin">
+          <div class="cake-sparkles" aria-hidden="true">✦ ✧ ✦</div>
+          <div class="candles" aria-hidden="true">
+            <div class="candle"><span class="flame"></span></div>
+            <div class="candle"><span class="flame"></span></div>
+            <div class="candle"><span class="flame"></span></div>
+            <div class="candle"><span class="flame"></span></div>
+            <div class="candle"><span class="flame"></span></div>
+          </div>
+          <div class="cake-top"><span class="cake-topper">♡</span></div>
+          <div class="cake-upper"></div>
+          <div class="cake-middle"><span class="icing-drip"></span></div>
+          <div class="cake-bottom"></div>
+          <div class="cake-plate"></div>
+        </div>
+        <div class="cake-action">
+          <div class="mic-meter" aria-hidden="true"><span id="micMeterFill"></span></div>
+          <p id="blowHint" class="blow-hint" role="status" aria-live="polite">Meminta izin mikrofon... setelah diizinkan, tiup lilinnya perlahan.</p>
+          <button type="button" id="blowFallbackBtn" class="blow-fallback-btn" style="display:none;">T</button>
+          <p id="wishResult" class="wish-result" aria-live="polite">May all your little wishes find their way to you. ♡</p>
+        </div>
+      </div>
+      <div class="wish-footnote">A LITTLE WISH FOR YOUR BIG DAY <span aria-hidden="true">✿</span></div>
+    </section>
+
+    <section class="letter-section section-pad" id="letter">
+      <div class="letter-side">
+        <p class="eyebrow">WORDS FROM THE HEART</p>
+        <h2>A letter,<br>just <em>for you.</em></h2>
+        <p class="section-intro">ada pesan kesan pesan</p>
+        <div class="letter-flower" aria-hidden="true">✿</div>
+      </div>
+      <div class="letter-card-wrap">
+        <div class="envelope-stage" id="envelopeStage">
+          <div class="envelope-box" id="envelopeBox" role="button" tabindex="0" aria-expanded="false" aria-label="Klik untuk membuka amplop surat">
+            <div class="envelope-back"></div>
+
+            <article class="letter-sheet" id="letterSheet">
+              <div class="letter-sheet-inner">
+                <div class="letter-sheet-top">
+                  <span>buat kakak</span>
+                  <span>♡</span>
+                </div>
+
+                <h3>hbd ka,</h3>
+                <p>di ulang tahun ini ga bisa merayakan bareng sedih sih, ka semarah apapun kita, seasing apapun kita, maneh tetap selaku aing anggap lancek sorangan dan itu moal robah sampai manapun</p>
+                <p>aing selalu berdoa maneh happy ka, aing seneng maneh bisa selalu di rayakan. percayalah ka maneh adalah orang yang ingin aing ajak segalanya. so panjang umur ya</p>
+                <p>aing ga bisa ngasih sesuatu yang mahal ka, aing cuman bisa kasih hadiah hadiah kecil yang bahkan mungkin ga guna buat maneh, tapi setiap aing beli barang itu aing liat maneh disitu.</p>
+                <p class="letter-sign">Erika dari matcha, <span>♡</span></p>
+              </div>
+            </article>
+
+            <div class="envelope-pocket-left"></div>
+            <div class="envelope-pocket-right"></div>
+            <div class="envelope-pocket-bottom"></div>
+            <div class="envelope-flap-top"></div>
+
+            <button type="button" class="wax-seal" id="openLetter" aria-label="Buka amplop surat">
+              <span class="seal-heart" aria-hidden="true">♡</span>
+              <span class="seal-text" id="sealText">Tap to open</span>
+            </button>
+          </div>
+        </div>
+        <p class="letter-caption" id="letterCaption">KLIK AMPLOP UNTUK MEMBUKA SURATNYA · YOU ARE SO LOVED.</p>
+      </div>
+    </section>
+
+    <section class="memory-section section-pad" id="memories">
+      <div class="memory-header">
+        <div><p class="eyebrow blue">THE LITTLE THINGS</p><h2>momen <em>kita.</em></h2></div>
+        <p class="memory-intro">photo aib sih</p>
+      </div>
+      <div class="gallery-shell">
+        <div class="gallery-pile" id="galleryPile">
+          <button type="button" class="photo-card" data-caption="old but gold">
+            <img src="assets/photos/20200302_180755.jpg" alt="Friends spending time together">
+            <span class="photo-label">old but gold <b>01</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="little celebrations">
+            <img src="assets/photos/20250424_195711_683.jpg" alt="Birthday celebration">
+            <span class="photo-label">little celebrations <b>02</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="dengan selimut itu">
+            <img src="assets/photos/IMG_20220809_035906_585.jpg" alt="A happy memory">
+            <span class="photo-label">dengan selimut itu <b>03</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="izin ke ibu negara susah">
+            <img src="assets/photos/IMG_20230502_112755_601.jpg" alt="Friends together">
+            <span class="photo-label">izin ke ibu negara susah <b>04</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="puskesmas papagih si ayu">
+            <img src="assets/photos/IMG_20240419_093125_468.jpg" alt="A special gathering">
+            <span class="photo-label">puskesmas papagih si ayu <b>05</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="first photo">
+            <img src="assets/photos/IMG-20180930-WA0000~2.jpg" alt="Friends enjoying a meal together">
+            <span class="photo-label">photo pertama <b>06</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="ketemu lagi setelah tamat smp">
+            <img src="assets/photos/IMG-20190813-WA0126.jpg" alt="Friends making memories">
+            <span class="photo-label">ketemu lagi setelah tamat smp <b>07</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="favorite chaos">
+            <img src="assets/photos/IMG-20200713-WA0100.jpg" alt="Friends spending time outside">
+            <span class="photo-label">favorite chaos <b>08</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="more days like this">
+            <img src="assets/photos/IMG-20230712-WA0017.jpg" alt="A celebration with loved ones">
+            <span class="photo-label">when ya keluar malem lagi <b>09</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="aingnya cantik">
+            <img src="assets/photos/IMG-20230717-WA0015.jpg" alt="A happy celebration">
+            <span class="photo-label">suka aing nya cantik hehe <b>10</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="menghapus dosa bareng">
+            <img src="assets/photos/IMG-20250213-WA0061.jpg" alt="Friends gathered around a table">
+            <span class="photo-label">menghapus dosa bareng <b>11</b></span>
+          </button>
+          <button type="button" class="photo-card" data-caption="forever favorite">
+            <img src="assets/photos/IMG-20250329-WA0027.jpg" alt="One more beautiful memory">
+            <span class="photo-label">forever favorite <b>12</b></span>
+          </button>
+        </div>
+        <p class="gallery-tip"><span aria-hidden="true">✳</span> Klik foto Polaroid untuk melihatnya lebih dekat.</p>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <div class="closing-flower" aria-hidden="true">✿</div>
+      <p class="eyebrow">AND BEFORE YOU GO...</p>
+      <h2>happy birthday,<br><em>beautiful soul.</em></h2>
+
+      <div class="closing-sign">Erika dari matcha <span>♡</span></div>
+      <div class="closing-bottom">MADE ESPECIALLY FOR YOU · <span>HAPPY BIRTHDAY</span></div>
+    </section>
+  </main>
+
+  <footer><span aria-hidden="true">✿</span> Fitriani <span>—</span> made with love.</footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Tutup">×</button>
+    <button type="button" class="lightbox-prev" id="lightboxPrev" aria-label="Foto sebelumnya">‹</button>
+    <figure><img id="lightboxImage" src="" alt=""><figcaption id="lightboxCaption"></figcaption></figure>
+    <button type="button" class="lightbox-next" id="lightboxNext" aria-label="Foto berikutnya">›</button>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+
+  <audio id="birthdayAudio" src="assets/music/birthday-song.mp3" preload="metadata" loop></audio>
+  <script src="js/script.js"></script>
+</body>
+</html>

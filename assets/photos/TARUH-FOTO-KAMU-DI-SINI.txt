@@ -1,0 +1,1 @@
+Simpan foto kenangan kamu di folder ini, lalu ganti src gambar pada index.html menjadi assets/photos/nama-foto.jpg
